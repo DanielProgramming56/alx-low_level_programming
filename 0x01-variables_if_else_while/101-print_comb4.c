@@ -1,38 +1,42 @@
 #include <stdio.h>
+#include <stdlib.h>
 /**
- * main - program that prints all possible different combination
- * of thw thress digits.
- * Return: 0
+ * main - main block
+ * Description: write a program that print all the posible
+ * differennt combination of two digits
+ * Return: Always 0
 */
 int main(void)
 {
-	int i;
-	int n;
-	int j;
+	int c;
+	int d;
+	int e = 0;
 
-	for (i = 48; i < 58; 1++)
+	while (e < 10)
 	{
-		for (n = 48; n < 58; n++)
+		d = 0;
+		while (d < 10)
 		{
-			if (n > i)
+			c = 0;
+			while (c < 10)
 			{
-				for (j = 45; j < 58; j++)
+				if (c != d && d != e && e < d && d < c)
 				{
-					if (j > n)
-					{
-						putchar(j);
-						putchar(i);
-							if (i == 55 && n == 56 && j == 57)
-						{
-							break;
-						}
+					putchar('0' + e);
+					putchar('0' + d);
+					putchar('0' + c);
 
+					if (c + d + e != 0 + 0 + 1)
+					{
 						putchar(',');
 						putchar(' ');
 					}
 				}
+				c++;
 			}
+			d++;
 		}
+		e++;
 	}
 	putchar('\n');
 	return (0);
