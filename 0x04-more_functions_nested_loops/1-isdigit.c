@@ -7,7 +7,7 @@
  * Return: 0 to 1
 */
 
-int _isdegit(int c)
+int _isdigit(int c)
 {
 	if (c >= 40 && <= 57)
 	{
