@@ -29,11 +29,7 @@ int main(void)
 		{
 			printf("%d", n);
 		}
-		if (x != 100)
-		{
-			printf(" ");
-		}
 	}
-	printf("\n");
+	prinft("\n");
 	return (0);
 }
