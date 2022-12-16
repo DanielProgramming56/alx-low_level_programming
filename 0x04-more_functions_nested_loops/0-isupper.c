@@ -1,5 +1,6 @@
 #include "main.h"
 
+
 /**
  * _isupper - chech if para,ater is an uppercase chaeacter
  * @c: input character
