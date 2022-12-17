@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <math.h>
 
 /**
  * main - print lsrgest prime facteor
@@ -7,17 +8,17 @@
 
 int main(void)
 {
-	long int n, fp;
+	long x, maxf;
+	long number = 6128524751243;
+	double square = sqrt(number);
 
-	n = 612852475143;
-	for (fp = 2; fp <= n; fp++)
+	for (x = 1; x <= square; x++)
 	{
-		if (n % fp == 0)
+		if (number % x == 0)
 		{
-			n /= fp;
-			fq--;
+			maxf = number / x;
 		}
 	}
-	printf("%ld\n", fp);
+	printf("%ld\n", maxf);
 	return (0);
 }
