@@ -1,7 +1,0 @@
-/home/danielchidebere/Documents/alx/projects/alx-low_level_programming/0x18-dynamic_libraries/dynamic_libraries/build/CMakeFiles/dynamic_libraries.dir
-/home/danielchidebere/Documents/alx/projects/alx-low_level_programming/0x18-dynamic_libraries/dynamic_libraries/build/CMakeFiles/edit_cache.dir
-/home/danielchidebere/Documents/alx/projects/alx-low_level_programming/0x18-dynamic_libraries/dynamic_libraries/build/CMakeFiles/rebuild_cache.dir
-/home/danielchidebere/Documents/alx/projects/alx-low_level_programming/0x18-dynamic_libraries/dynamic_libraries/build/CMakeFiles/list_install_components.dir
-/home/danielchidebere/Documents/alx/projects/alx-low_level_programming/0x18-dynamic_libraries/dynamic_libraries/build/CMakeFiles/install.dir
-/home/danielchidebere/Documents/alx/projects/alx-low_level_programming/0x18-dynamic_libraries/dynamic_libraries/build/CMakeFiles/install/local.dir
-/home/danielchidebere/Documents/alx/projects/alx-low_level_programming/0x18-dynamic_libraries/dynamic_libraries/build/CMakeFiles/install/strip.dir
